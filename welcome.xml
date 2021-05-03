@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground"
+    tools:context=".Welcome" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp" >
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Login ......"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/newedit"
+            android:hint="Enter Phone Number" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phonenumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/newedit"
+            android:hint="Enter Password"
+            android:password="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/forgotpassword"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/password"
+            android:layout_below="@id/password"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:listSelector="@drawable/sha"
+            android:text="Forgot Password" />
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/forgotpassword"
+            android:layout_alignBottom="@+id/forgotpassword"
+            android:layout_toRightOf="@+id/login"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:listSelector="@drawable/sha"
+            android:text="Sign In" />
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/forgotpassword"
+            android:layout_below="@id/signIn"
+            android:layout_marginTop="40dp"
+            android:text="Not a member ? Sign Up NOW"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</ScrollView>

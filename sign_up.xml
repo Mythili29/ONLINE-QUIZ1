@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/listviewbackground" >
+
+        <TextView
+            android:id="@+id/getText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Provide Your Details"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/get_R_Username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter UserName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/get_R_Password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/get_R_Username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter Password"
+            android:password="true"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/get_R_Check"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/get_R_Password"
+            android:layout_below="@id/get_R_Password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:text="Check Your Password"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/get_R_Repassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/get_R_Check"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter Password"
+            android:password="true"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/get_R_Number"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/get_R_Repassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter PhoneNumber"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/get_R_Number"
+            android:layout_below="@id/get_R_Number"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:listSelector="@drawable/sha"
+            android:text="Register" />
+    </RelativeLayout>
+
+</ScrollView>

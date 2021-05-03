@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground"
+    tools:context=".C_Notes" >
+
+    <TextView
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/listviewbackground"
+        android:paddingLeft="100dp"
+        android:text="DBMS Notes"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewbackground"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="A database management system (DBMS) is a computer software application that interacts with the user, other applications, and the database itself to capture and analyze data. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text=" database is not generally portable across different DBMSs, but different DBMS can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS. Database management systems are often classified according to the database model that they support; the most popular database systems since the 1980s have all supported the relational model as represented by the SQL language."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="A database model is a type of data model that determines the logical structure of a database and fundamentally determines in which manner data can be stored, organized, and manipulated. The most popular example of a database model is the relational model (or the SQL approximation of relational), which uses a table-based format."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="The external level defines how each group of end-users sees the organization of data in the database. A single database can have any number of views at the external level."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="The conceptual level unifies the various external views into a compatible global view.[32] It provides the synthesis of all the external views. It is out of the scope of the various database end-users, and is rather of interest to database application developers and database administrators."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Since virtually all video game consoles and arcade cabinets designed and built after 1980 were true digital machines (unlike the analog Pong clones and derivatives), some of them carried a minimal form of BIOS or built-in game, such as the ColecoVision, the Sega Master System and the SNK Neo Geo."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="The three-level database architecture relates to the concept of data independence which was one of the major initial driving forces of the relational model. The idea is that changes made at a certain level do not affect the view at a higher level."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="The conceptual view provides a level of indirection between internal and external. On one hand it provides a common view of the database, independent of different external view structures, and on the other hand it abstracts away details of how the data are stored or managed (internal level). In principle every level, and even every external view, can be presented by a different data model. In practice usually a given DBMS uses the same data model for both the external and the conceptual levels (e.g., relational model)."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
